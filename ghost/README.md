@@ -6,16 +6,16 @@ This repository contains **Dockerfile** of [Ghost](https://www.ghost.org/) for [
 
 ### Base Docker Image
 
-* [dockerfile/nodejs](http://dockerfile.github.io/#/nodejs)
+* [pupboss/nodejs-lts-docker](https://hub.docker.com/r/pupboss/nodejs-lts-docker/)
 
 
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/ghost/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/ghost`
+2. Download [automated build](https://hub.docker.com/r/pupboss/ghost/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull pupboss/ghost`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/ghost" github.com/dockerfile/ghost`)
+   (alternatively, you can build an image from Dockerfile: `git clone git@github.com:pupboss/Dockerfiles.git && cd Dockerfiles/ghost && docker build -t pupboss/ghost .`)
 
 
 ### Usage
